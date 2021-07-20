@@ -307,3 +307,11 @@ nav{
     transform: scale(1.2);
     opacity: 1;
 }
+
+.portfolio__video{
+    width: 890px;
+    height: 500px;
+    border: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
