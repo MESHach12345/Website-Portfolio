@@ -225,6 +225,8 @@ nav{
 .about-me{
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 3em;
 }
 
 .about-me__img{
@@ -261,4 +263,47 @@ nav{
         z-index: 2;
         margin-top: 2em;
     }
+}
+
+/* Robotics */
+
+.my-work {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    text-align: center;
+    /* margin: 0; */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section__title--work {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.section__subtitle--work {
+    padding-top: 0;
+    margin-bottom: 1em;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio__item{
+    background-color: var(--clr-accent);
+    overflow: hidden;
+}
+
+.portfolio__img{
+    height: 300px;
+    transition: 
+        transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio__img:hover{
+    transform: scale(1.2);
+    opacity: 1;
 }
