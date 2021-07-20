@@ -253,12 +253,12 @@ nav{
         left: -1em;
         width: calc(100% + 2em);
         padding-left: 1em;
-        padding-right: calc(200px + 2em);
     }
 
     .about-me__img{
         grid-area: img;
         position: relative;
         z-index: 2;
+        margin-top: 2em;
     }
 }
