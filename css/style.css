@@ -163,7 +163,7 @@ header {
     height: 100%;
     margin: 0;
     padding: 0;
-    padding-left: 48.5em;
+    padding-left: 45.5em;
 }
 
 .nav__link{
@@ -194,7 +194,7 @@ header {
 }
 
 .nav-open .nav{
-    transform: translateX(-80%);
+    transform: translateX(-75%);
 }
 
 .nav-open .hamburger{
@@ -382,9 +382,18 @@ header {
 
 /* Robotics */
 
-.my-work {
+.my-work-coding {
     background-color: var(--clr-light);
     color: var(--clr-dark);
+    text-align: center;
+    /* margin: 0; */
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.my-work-robotics{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
     /* margin: 0; */
     padding-top: 2em;
@@ -407,7 +416,6 @@ header {
 }
 
 .portfolio__item{
-    background-color: var(--clr-accent);
     overflow: hidden;
 }
 
