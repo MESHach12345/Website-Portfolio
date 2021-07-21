@@ -479,3 +479,22 @@ header {
     margin: 0 0.5em;
     padding: 0 0.25em;
 }
+
+/* Individual Portfolio Styling */
+
+.portfolio-item-individual{
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -5em;
+}
+
+.portfolio-item-individual p{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-link {
+    text-decoration: underline dotted;
+}
