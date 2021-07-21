@@ -189,6 +189,11 @@ header {
     padding: none 0.5em;
 }
 
+.nav-toggle:focus{
+    outline: none;
+    outline-offset: none;
+}
+
 .nav-open .nav{
     transform: translateX(-80%);
 }
