@@ -163,7 +163,7 @@ header {
     height: 100%;
     margin: 0;
     padding: 0;
-    padding-left: 45.5em;
+    padding-left: 48.5em;
 }
 
 .nav__link{
@@ -194,7 +194,7 @@ header {
 }
 
 .nav-open .nav{
-    transform: translateX(-75%);
+    transform: translateX(-80%);
 }
 
 .nav-open .hamburger{
