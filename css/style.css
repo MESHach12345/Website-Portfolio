@@ -377,6 +377,10 @@ header {
         position: relative;
         z-index: 2;
         margin-top: 2em;
+        min-height: 500px;
+        min-width: 300px;
+        padding-left: 0;
+        margin-left: -1em;
     }
 }
 
